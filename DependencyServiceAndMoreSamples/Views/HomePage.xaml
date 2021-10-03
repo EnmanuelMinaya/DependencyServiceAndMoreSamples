@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DependencyServiceAndMoreSamples.Views.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:controls="clr-namespace:DependencyServiceAndMoreSamples.Controls"
+    xmlns:effects="clr-namespace:DependencyServiceAndMoreSamples"
+    Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="End">
+            <Button
+                Command="{Binding GetOrientationCommand}"
+                HorizontalOptions="CenterAndExpand"
+                Text="Get Orientation"
+                VerticalOptions="Center" />
+
+
+
+            <Label
+                FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                Text="{Binding OrientationText}"
+                TextColor="Green" />
+            <controls:CustomEntry />
+            <Entry
+                x:Name="ImputEntry"
+                Placeholder="Email"
+                VerticalOptions="End">
+                <Entry.Effects>
+                    <effects:FocusEffect />
+                </Entry.Effects>
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
