@@ -1,15 +1,6 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.Content;
 using DependencyServiceAndMoreSamples.Controls;
 using DependencyServiceAndMoreSamples.Droid.Renderers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
@@ -17,7 +8,7 @@ using Xamarin.Forms.Platform.Android;
 
 namespace DependencyServiceAndMoreSamples.Droid.Renderers
 {
-    public class CustomEntryRenderer:EntryRenderer
+    public class CustomEntryRenderer : EntryRenderer
     {
         public CustomEntryRenderer(Context context) : base(context)
         {

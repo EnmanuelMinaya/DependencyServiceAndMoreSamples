@@ -1,16 +1,8 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
+﻿using Android.Content;
 using Android.Runtime;
 using Android.Views;
-using Android.Widget;
 using DependencyServiceAndMoreSamples.Droid.Services;
 using DependencyServiceAndMoreSamples.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using Xamarin.Forms.Internals;
 
 

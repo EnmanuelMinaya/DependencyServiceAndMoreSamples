@@ -4,8 +4,8 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly:ResolutionGroupName ("DogCompany")]
-[assembly:ExportEffect (typeof(DependencyServiceAndMoreSamples.iOS.Effects.FocusEffect), nameof(DependencyServiceAndMoreSamples.iOS.Effects.FocusEffect))]
+[assembly: ResolutionGroupName("DogCompany")]
+[assembly: ExportEffect(typeof(DependencyServiceAndMoreSamples.iOS.Effects.FocusEffect), nameof(DependencyServiceAndMoreSamples.iOS.Effects.FocusEffect))]
 namespace DependencyServiceAndMoreSamples.iOS.Effects
 {
     public class FocusEffect : PlatformEffect

@@ -3,9 +3,7 @@ using DependencyServiceAndMoreSamples.Views;
 using Prism;
 using Prism.Ioc;
 using Prism.Unity;
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace DependencyServiceAndMoreSamples
 {

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace DependencyServiceAndMoreSamples.Controls
 {
-    public class CustomEntry:Entry
+    public class CustomEntry : Entry
     {
     }
 }

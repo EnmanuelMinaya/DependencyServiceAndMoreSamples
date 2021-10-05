@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DependencyServiceAndMoreSamples
+﻿namespace DependencyServiceAndMoreSamples
 {
     public static class NavigationConstants
     {
